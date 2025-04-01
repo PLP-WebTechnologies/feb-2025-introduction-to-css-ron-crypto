@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/ style.css">
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>fries</li>
+        <li>pizza</li>
+        <li>burger</li>
+        <li>meatpie</li>
+        <li>salad</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Pexels Image" width="500">
+
+    <!-- Contacts Table -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Kamau</td>
+            <td>Mbagathi Street,Nairobi City</td>
+            <td>+25471234567</td>
+            <td>johnK@mail.com</td>
+        </tr>
+        <tr>
+            <td>Jane Anyango</td>
+            <td>Kenyatta Avenue,Kisumu City</td>
+            <td>+2547556905</td>
+            <td>jane@mail.com</td>
+        </tr>
+        <tr>
+            <td>Mike Brown</td>
+            <td>Kanu Street,Nakuru City</td>
+            <td>+25422334455</td>
+            <td>mikebrown@mail.com</td>
+        </tr>
+        <tr>
+            <td>Emma Chebet</td>
+            <td>Eldo Lane,Eldoret City</td>
+            <td>+25477889900</td>
+            <td>emmac@mail.com</td>
+        </tr>
+        <tr>
+            <td>Chris Matendechere</td>
+            <td>Buhungu, KakamegaCity</td>
+            <td>+25455667788</td>
+            <td>chris@mail.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="Kenya">Kenya</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="India">India</option>
+        </select><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
